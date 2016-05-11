@@ -75,17 +75,3 @@ table {
         flex: 1;
         padding: 10px;
     }
-
-
-/* 5 */
-.grid-divs {
-    display: grid;
-    grid-template-rows: 100vh;
-    /*   grid-template-columns: repeat(3, 20px); */
-    /*   grid-template-columns: 33.33333%; */
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
-    .grid-divs div {
-
-    }
