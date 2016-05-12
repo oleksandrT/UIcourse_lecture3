@@ -1,0 +1,90 @@
+/* Global styles */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.titles {
+    padding-left: 20px;
+}
+
+.one { background: #A1B3EF; }
+.two { background: #FF9EC8; }
+.three { background: #ABD8BE }
+
+hr { margin: 30px 0; }
+
+p { margin-top: 0; }
+
+
+/* Elements styles */
+/* 1 */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+    table td {
+        background: #A1B3EF;
+        padding: 10px;
+        width: 33.33333%;
+        vertical-align: top;
+    }
+
+
+/* 2 */
+.float-divs {
+    overflow: hidden;
+}
+
+    .float-divs div {
+        width: calc(33.33333% - 20px);
+        float: left;
+        padding: 10px;
+        padding-bottom: 9999px;
+        margin-bottom: -9999px;
+    }
+
+
+/* 3 */
+.inline-divs {
+    word-spacing: -4px;
+    height: 35vh;
+}
+
+    .inline-divs div {
+        width: 33.33333%;
+        display: inline-block;
+        padding: 10px;
+        word-spacing: normal;
+        box-sizing: border-box;
+        vertical-align: top;
+        height: 100%;
+    }
+
+.inline-divs2 {
+}
+
+    .inline-divs2 div {
+        width: 33.33333%;
+        display: inline-block;
+        padding: 10px;
+        vertical-align: top;
+        box-sizing: border-box;
+        height: 35vh;
+    }
+
+    .inline-divs2 div:not(:first-child) {
+        margin-left: -4px;
+    }
+
+
+/* 4 */
+.flex-divs {
+    display: flex;
+}
+
+    .flex-divs div {
+        flex: 1;
+        padding: 10px;
+    }
