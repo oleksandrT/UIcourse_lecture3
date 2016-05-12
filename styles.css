@@ -50,6 +50,7 @@ table {
 /* 3 */
 .inline-divs {
     word-spacing: -4px;
+    height: 70vh;
 }
 
     .inline-divs div {
@@ -59,6 +60,7 @@ table {
         word-spacing: normal;
         box-sizing: border-box;
         vertical-align: top;
+        height: 100%;
     }
 
 .inline-divs2 {
