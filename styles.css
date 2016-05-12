@@ -26,7 +26,12 @@ table {
         background: #A1B3EF;
         padding: 10px;
         width: 33.33333%;
+        vertical-align: top;
     }
+
+        table td p {
+            margin-top: 0;
+        }
 
 /* 2 */
 .float-divs {
@@ -37,12 +42,14 @@ table {
         width: calc(33.33333% - 20px);
         float: left;
         padding: 10px;
+        padding-bottom: 9999px;
+        margin-bottom: -9999px;
     }
 
 
 /* 3 */
 .inline-divs {
-    word-spacing: -34px;
+    word-spacing: -4px;
 }
 
     .inline-divs div {
@@ -50,6 +57,8 @@ table {
         display: inline-block;
         padding: 10px;
         word-spacing: normal;
+        box-sizing: border-box;
+        vertical-align: top;
     }
 
 .inline-divs2 {
@@ -59,10 +68,12 @@ table {
         width: 33.33333%;
         display: inline-block;
         padding: 10px;
+        vertical-align: top;
+        /*box-sizing: border-box;*/
     }
 
     .inline-divs2 div:not(:first-child) {
-        margin-left: -34px;
+        margin-left: -4px;
     }
 
 
